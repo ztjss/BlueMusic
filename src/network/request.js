@@ -5,8 +5,8 @@ export function request(config) {
 		// baseURL:'/api',
 		// baseURL: "https://autumnfish.cn/",
 		// baseURL: "http://localhost:3000",
-		//baseURL: "https://blue-music-api.vercel.app/",
-		baseURL:"http://www.codeman.ink:3000",
+		baseURL: "https://blue-music-api.vercel.app/",
+		//baseURL:"http://www.codeman.ink:3000",
 		timeout: 30000,
 		withCredentials: true,
 	});
