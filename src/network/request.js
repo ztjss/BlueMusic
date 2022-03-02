@@ -65,5 +65,6 @@ export function downloadMusic(config) {
 			return Promise.reject(error);
 		}
 	);
+	instance.defaults.withCredentials = true;
 	return instance(config);
 }
